@@ -1,0 +1,11 @@
+نسخة إصلاح PWA لبقالة وطن
+
+ارفع كل محتويات هذا المجلد إلى جذر مستودع GitHub المرتبط بموقع Netlify، بجانب بعضها مباشرة، ثم اضغط Commit changes.
+يجب أن تكون index.html في جذر النشر وليس داخل مجلد فرعي.
+
+بعد الحفظ، انتظر Netlify حتى يظهر Published، ثم افتح:
+https://watanmarket.netlify.app/manifest.json
+يجب أن تظهر بيانات JSON فيها name وdescription وicons.
+ثم أعد فحص الموقع في PWA Builder.
+
+هذه الحزمة تصلح اكتشاف manifest وتضيف وصف التطبيق وتضبط نوع المحتوى وملف service worker. لا تعني أن مزامنة Supabase قد اكتملت.
